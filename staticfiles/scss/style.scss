@@ -1,0 +1,61 @@
+// Import any external SCSS dependencies here, if needed
+
+// Root variables
+$primary-100: #d4eaf7;
+$primary-200: #b6ccd8;
+$primary-300: #3b3c3d;
+$accent-100: #71c4ef;
+$accent-200: #00668c;
+$text-100: #1d1c1c;
+$text-200: #313d44;
+$bg-100: #fffefb;
+$bg-200: #f5f4f1;
+$bg-300: #cccbc8;
+
+// Loader styles
+.banter-loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 72px;
+  height: 72px;
+  margin-left: -36px;
+  margin-top: -36px;
+  // Add animation properties here if needed
+}
+
+// Button styles
+.button {
+  padding: 15px 20px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  z-index: 1;
+
+  // Add hover and active styles here if needed
+}
+
+// Card styles
+.card {
+  box-sizing: border-box;
+  width: 190px;
+  height: 254px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+
+  // Add hover and active styles here if needed
+}
